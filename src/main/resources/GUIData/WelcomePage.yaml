@@ -1,0 +1,13 @@
+baseClass: "com.paypal.selion.testcomponents.BasicPageImpl"
+platform: "mobile"
+elements:
+  imageList:
+    android:
+      US: "com.zhijin.orange:id/vp_guide"
+    ios:
+      US: "//test"         
+  startButton:
+    android:
+      US: "com.zhijin.orange:id/btn_start"
+    ios:
+      US: "//test"  

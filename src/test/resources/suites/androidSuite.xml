@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="7" verbose="1" name="AndroidSuite"
+	skipfailedinvocationcounts="false" junit="false" parallel="false"
+	data-provider-thread-count="50" annotations="JDK">
+	
+	<!-- SELENIUM CONFIGURATION -->
+	<parameter name="mobileNodeType" value="appium" />
+	<parameter name="seleniumhost" value="127.0.0.1" />
+	<parameter name="seleniumport" value="4723" />
+	<parameter name="mobilePlatform" value="android" />
+    <parameter name="mobileDevice" value="android:4.4.4" />
+    <parameter name="mobileDeviceType" value="device" />
+    <parameter name="appPath" value="src/test/resources/app/orangeOnline.apk" />
+    
+	<test verbose="2" name="AndroidTest" annotations="JDK">
+		<classes>
+<!-- 			<class name="com.orange.testcase.LoginTest"></class> -->
+			<class name="com.orange.testcase.UserTest"></class>
+		</classes>
+	</test>
+
+</suite>

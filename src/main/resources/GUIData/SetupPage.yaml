@@ -1,0 +1,23 @@
+baseClass: "com.paypal.selion.testcomponents.BasicPageImpl"
+platform: "mobile"
+elements: 
+  clearVideoElement:
+    android:
+      US: "//android.webkit.WebView[1]/android.view.View[1]"
+    ios:
+      US: "//test"
+  yesElement:
+    android:
+      US: "//android.webkit.WebView[1]/android.view.View[8]"
+    ios:
+      US: "//test"      
+  clearCacheElement:
+    android:
+      US: "//android.webkit.WebView[1]/android.view.View[5]"
+    ios:
+      US: "//test"
+  quitButton:
+    android:
+      US: "//android.webkit.WebView[1]/android.view.View[10]"
+    ios:
+      US: "//test"            

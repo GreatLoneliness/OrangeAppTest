@@ -1,0 +1,33 @@
+baseClass: "com.paypal.selion.testcomponents.BasicPageImpl"
+platform: "mobile"
+elements: 
+  selectSchoolElement:
+    android:
+      US: "//android.widget.Spinner[1]"
+    ios:
+      US: "//test"    
+  orangeOnlineElement:
+    android:
+      US: "//android.widget.CheckedTextView[2]"
+    ios:
+      US: "//test"  
+  testServerElement:
+    android:
+      US: "//android.widget.CheckedTextView[3]"
+    ios:
+      US: "//test"                  
+  accountTextField:
+    android:
+      US: "//android.widget.EditText[1]"
+    ios:
+      US: "//test"  
+  passwordTextField:
+    android:
+      US: "//android.webkit.WebView[1]/android.view.View[2]"
+    ios:
+      US: "//test"           
+  loginButton:
+    android:
+      US: "//android.webkit.WebView[1]/android.view.View[4]"
+    ios:
+      US: "//test"

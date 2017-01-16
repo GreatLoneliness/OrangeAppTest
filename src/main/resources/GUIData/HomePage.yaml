@@ -1,0 +1,8 @@
+baseClass: "com.paypal.selion.testcomponents.BasicPageImpl"
+platform: "mobile"
+elements: 
+  noticeLabel:
+    android:
+      US: "//android.webkit.WebView[1]/android.view.View[1]/android.view.View[1]"
+    ios:
+      US: "//test"
